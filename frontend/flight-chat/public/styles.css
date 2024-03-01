@@ -1,0 +1,42 @@
+:root {
+    --background-color: #7ae2bf;
+    --text-color: #64234b;
+    --tertiary-color: #877376;
+    --fourth-color: #f2f2ec;
+  }
+body{
+    background-color: var(--background-color);
+    background-color: #7ae2bf;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+
+    
+}
+#NextButton{
+    width:4em;
+   
+    border-radius: 50em;
+
+}
+
+input {
+    border: .005em solid var(--fourth-color);
+    background-color: rgba(252, 252, 252, 0.2);
+    width: 13em;
+    height: 2.5em;
+    border-radius: 3px;
+    padding: 10px 15px;
+    margin: 0 auto 10px auto;
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    color: var(--text-color);
+    font-weight: 400;
+  }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
